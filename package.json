@@ -1,0 +1,10 @@
+{
+	"devDependencies": {
+		"@cypress/xpath": "^2.0.3",
+		"cypress": "^12.5.1"
+	},
+	"scripts": {
+		"cypress:openSit": "cypress open --config-file cypressSit.config.js",
+		"cypress:openUat": "cypress open --config-file cypressUat.config.js"
+	}
+}
